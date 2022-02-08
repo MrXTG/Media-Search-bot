@@ -309,7 +309,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
         elif query.data.startswith("checksub"):
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                await query.answer("നിനക്ക് വേണേൽ നീ ചോദിക്ക്, മറ്റുള്ളവരുടെ കയ്യിട്ട് വാരല്ലേ!!!",show_alert=True)
+                await query.answer("ആദ്യം ചാനലിൽ Join ചെയ്യൂ...",show_alert=True)
                 return
             ident, file_id = query.data.split("#")
             filedetails = await get_file_details(file_id)
@@ -344,4 +344,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("❗❗❗❗❗❗❗❗",show_alert=True)
