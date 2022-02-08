@@ -189,7 +189,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton("❗Click Here❗", callback_data="close")
+            InlineKeyboardButton("❗Click Here❗", url="https://t.me/+bZW9FDDBXHhjZWI1")
         ]
         ]
     await message.reply(text="👇",reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
