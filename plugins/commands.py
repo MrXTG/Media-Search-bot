@@ -192,4 +192,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton("❗Click Here❗", callback_data="help_data")
         ]
         ]
-    await message.reply(text="👇"=true)
+    await message.reply(text="👇",reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
