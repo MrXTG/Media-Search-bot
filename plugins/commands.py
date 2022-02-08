@@ -99,8 +99,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⚜️ Join Channel", url="https://t.me/+bZW9FDDBXHhjZWI1"),
-                        InlineKeyboardButton('Join Group ⚜️', url='https://t.me/joinchat/KBCxii_zxLJhMzk9')
+                        InlineKeyboardButton("⚜️ Join ⚜️", url="https://t.me/+bZW9FDDBXHhjZWI1")
                     ]
                 ]
             )
