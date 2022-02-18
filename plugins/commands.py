@@ -21,24 +21,6 @@ async def start(bot, cmd):
                         text="Sorry Sir, You are Banned to use me.",
                         parse_mode="markdown",
                         disable_web_page_preview=True
-                    )
-                    return
-            except UserNotParticipant:
-                ident, file_id = cmd.text.split("_-_-_-_")
-                await bot.send_message(
-                    chat_id=cmd.from_user.id,
-                    text="__Instructions;-\n\nതാഴെ കാണുന്ന ⚜️ Join ⚜️ എന്നതിൽ Click ചെയ്ത് ചാനലിൽ ജോയിൻ ചെയ്യുക...\nശേഷം വീണ്ടും ഇതിലേക്ക് വന്നിട്ട്   🔄 Try Again 🔄 എന്ന് Click ചെയ്യുക...\n\nഎങ്കിൽ മാത്രമേ സിനിമ ലഭിക്കൂ..☺️__",
-                    reply_markup=InlineKeyboardMarkup(
-                        [
-                            [
-                                InlineKeyboardButton("⚜️ Join ⚜️", url=invite_link.invite_link)
-                            ],
-                            [
-                                InlineKeyboardButton(" 🔄 Try Again 🔄", callback_data=f"checksub#{file_id}")
-                            ]
-                        ]
-                    ),
-                    parse_mode="markdown"
                 )
                 return
             except Exception:
