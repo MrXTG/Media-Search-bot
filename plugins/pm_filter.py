@@ -296,7 +296,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton("⚜️ Join Channel", url="https://t.me/+bZW9FDDBXHhjZWI1"),
-                        InlineKeyboardButton('Join Group ⚜️', url='https://t.me/joinchat/KBCxii_zxLJhMzk9')
+                        InlineKeyboardButton('Join Group ⚜️', url='https://t.me/+Vc0Gnmu_ydj00Ftd')
                     ]
                     ]
                 
@@ -328,7 +328,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton("⚜️ Join Channel", url="https://t.me/+bZW9FDDBXHhjZWI1"),
-                        InlineKeyboardButton('Join Group ⚜️', url='https://t.me/joinchat/KBCxii_zxLJhMzk9')
+                        InlineKeyboardButton('Join Group ⚜️', url='https://t.me/+Vc0Gnmu_ydj00Ftd')
                     ]
                     ]
                 
